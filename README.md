@@ -1,22 +1,10 @@
-# Kamran-Personal-Portfolio
+# MY PORTFOLIO
 
-Welcome to my personal portfolio website.
-
-## About
-
-This website represents my personal profile, skills,
-experience, education and projects.
-
-## Technologies
-
-- HTML
-- CSS
-- JavaScript
+Personal portfolio website built with HTML, CSS and JavaScript.
 
 ## Sections
-
 - Home
-- About Me
+- About
 - Experience
 - Skills
 - Projects
@@ -24,24 +12,14 @@ experience, education and projects.
 - Contact
 
 ## Features
-
 - Responsive design
-- Smooth scrolling navigation
-- Dark theme
+- Smooth navigation
+- Modern dark theme
 - Green accent design
-- Profile image
-- Background image
-- Project section
-- Contact section
+- Background and profile images
+
+## Technologies
+HTML5, CSS3, JavaScript
 
 ## Author
-
-YOUR_NAME
-
-## Contact
-
-Email: YOUR_EMAIL
-
-Phone: YOUR_PHONE
-
-Address: YOUR_ADDRESS
+MD KAMRAN HOSSAIN
