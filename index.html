@@ -1,64 +1,324 @@
-Home About Experience Skills Projects Education Contact
-Kamran Profile Photo
-Kamran
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-Web Designer | Developer | Freelancer
+    <title>Kamran | Web Designer & Developer</title>
 
-Contact Me
-About Me
+    <link rel="stylesheet" href="style.css">
+</head>
 
-Kamran About Photo
-Hello! I am Kamran. I am passionate about web design, development and technology.
+<body>
 
-I create clean, modern and user-friendly websites.
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">Kamran</a>
 
-📍 Bangladesh
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#experience">Experience</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#education">Education</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
 
-Experience
 
-Web Designer
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="hero-content">
 
-Freelance | 2024 - Present
+            <img src="kamran.png.PNG" alt="Kamran Profile Photo" class="profile-img">
 
-Designed modern and responsive websites for different projects.
+            <p class="welcome">WELCOME TO MY PORTFOLIO</p>
 
-Web Developer
+            <h1>Hi, I'm <span>Kamran</span></h1>
 
-Freelance | 2024 - Present
+            <h3>Web Designer | Developer | Freelancer</h3>
 
-Built responsive websites and web applications using modern web technologies.
+            <p class="hero-text">
+                I create clean, modern and user-friendly websites
+                that look great on every device.
+            </p>
 
-My Skills
+            <div class="hero-buttons">
+                <a href="#contact" class="btn">Contact Me</a>
+                <a href="#projects" class="btn btn-outline">View Projects</a>
+            </div>
 
-HTML 90%
-CSS 85%
-JavaScript 75%
-WordPress 80%
-Projects
+        </div>
+    </header>
 
-Project One
 
-Modern responsive website project.
+    <!-- About -->
+    <section id="about" class="section">
 
-Project Two
+        <div class="section-title">
+            <p>GET TO KNOW ME</p>
+            <h2>About Me</h2>
+        </div>
 
-Professional web application project.
+        <div class="about-container">
 
-Project Three
+            <div class="about-image">
+                <img src="kamran.png.PNG" alt="Kamran About Photo">
+            </div>
 
-Creative portfolio website project.
+            <div class="about-content">
+                <h3>Hello! I am Kamran.</h3>
 
-Education
+                <p>
+                    I am passionate about web design, development and technology.
+                    I enjoy creating beautiful, fast and user-friendly websites.
+                </p>
 
-Computer Science & Technology
+                <p>
+                    My goal is to build modern digital experiences that are
+                    simple, professional and easy to use.
+                </p>
 
-Your Institution Name
+                <div class="location">
+                    📍 Bangladesh
+                </div>
+            </div>
 
-2022 - Present
+        </div>
+    </section>
 
-Contact Me
 
-📧 kamran@example.com
+    <!-- Experience -->
+    <section id="experience" class="section">
 
-📱 +880 1400764990
+        <div class="section-title">
+            <p>MY JOURNEY</p>
+            <h2>Experience</h2>
+        </div>
 
+        <div class="timeline">
+
+            <div class="card">
+                <span class="date">2024 - Present</span>
+                <h3>Web Designer</h3>
+                <h4>Freelance</h4>
+
+                <p>
+                    Designed modern and responsive websites for different
+                    clients and projects with a focus on clean UI and
+                    excellent user experience.
+                </p>
+            </div>
+
+            <div class="card">
+                <span class="date">2024 - Present</span>
+                <h3>Web Developer</h3>
+                <h4>Freelance</h4>
+
+                <p>
+                    Built responsive websites and web applications using
+                    modern web technologies and development practices.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Skills -->
+    <section id="skills" class="section">
+
+        <div class="section-title">
+            <p>WHAT I DO</p>
+            <h2>My Skills</h2>
+        </div>
+
+        <div class="skills-container">
+
+            <div class="skill">
+                <div class="skill-info">
+                    <span>HTML</span>
+                    <span>90%</span>
+                </div>
+
+                <div class="progress">
+                    <div class="progress-bar html"></div>
+                </div>
+            </div>
+
+
+            <div class="skill">
+                <div class="skill-info">
+                    <span>CSS</span>
+                    <span>85%</span>
+                </div>
+
+                <div class="progress">
+                    <div class="progress-bar css"></div>
+                </div>
+            </div>
+
+
+            <div class="skill">
+                <div class="skill-info">
+                    <span>JavaScript</span>
+                    <span>75%</span>
+                </div>
+
+                <div class="progress">
+                    <div class="progress-bar javascript"></div>
+                </div>
+            </div>
+
+
+            <div class="skill">
+                <div class="skill-info">
+                    <span>WordPress</span>
+                    <span>80%</span>
+                </div>
+
+                <div class="progress">
+                    <div class="progress-bar wordpress"></div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+
+        <div class="section-title">
+            <p>MY RECENT WORK</p>
+            <h2>Projects</h2>
+        </div>
+
+        <div class="projects-grid">
+
+            <div class="project-card">
+                <div class="project-number">01</div>
+
+                <h3>Project One</h3>
+
+                <p>
+                    Modern responsive website project designed with
+                    a clean and professional user interface.
+                </p>
+
+                <a href="#" class="project-link">View Project →</a>
+            </div>
+
+
+            <div class="project-card">
+                <div class="project-number">02</div>
+
+                <h3>Project Two</h3>
+
+                <p>
+                    Professional web application project built with
+                    modern web development technologies.
+                </p>
+
+                <a href="#" class="project-link">View Project →</a>
+            </div>
+
+
+            <div class="project-card">
+                <div class="project-number">03</div>
+
+                <h3>Project Three</h3>
+
+                <p>
+                    Creative portfolio website project focused on
+                    modern design and responsive layouts.
+                </p>
+
+                <a href="#" class="project-link">View Project →</a>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Education -->
+    <section id="education" class="section">
+
+        <div class="section-title">
+            <p>MY QUALIFICATION</p>
+            <h2>Education</h2>
+        </div>
+
+        <div class="education-card">
+
+            <div class="education-icon">
+                🎓
+            </div>
+
+            <div>
+                <span class="date">2022 - Present</span>
+
+                <h3>Computer Science & Technology</h3>
+
+                <p>
+                    Your Institution Name
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Contact -->
+    <section id="contact" class="section contact-section">
+
+        <div class="section-title">
+            <p>LET'S TALK</p>
+            <h2>Contact Me</h2>
+        </div>
+
+        <p class="contact-text">
+            Have a project in mind? Feel free to get in touch with me.
+        </p>
+
+        <div class="contact-container">
+
+            <a href="mailto:kamran@example.com" class="contact-card">
+                <span>📧</span>
+                <div>
+                    <small>Email</small>
+                    <strong>kamran@example.com</strong>
+                </div>
+            </a>
+
+
+            <a href="tel:+8801400764990" class="contact-card">
+                <span>📱</span>
+                <div>
+                    <small>Phone</small>
+                    <strong>+880 1400764990</strong>
+                </div>
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>
+            © 2024 - 2026 Kamran. All Rights Reserved.
+        </p>
+
+        <p>
+            Designed & Developed by <span>Kamran</span>
+        </p>
+    </footer>
+
+
+</body>
+</html>
